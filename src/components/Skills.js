@@ -9,7 +9,7 @@ import reactjs from '../assets/bxl-react.svg'
 import nodejs from '../assets/bxl-nodejs.svg'
 import express from '../assets/bxl-express.svg'
 import mongodb from '../assets/bxl-mongodb.svg'
-
+import Figma from '../assets/figma1.svg'
 
 function Skills() {
   return (
@@ -50,6 +50,10 @@ function Skills() {
                 <div className="col-sm text-center">
                   <img src={mongodb} alt="mongodb" />
                   <p>MongoDB</p>
+                </div>
+                <div className="col-sm text-center">
+                  <img src={Figma} alt="Figma" />
+                  <p>Figma</p>
                 </div>
               </div>
             </div>

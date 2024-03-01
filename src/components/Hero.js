@@ -3,7 +3,7 @@ import "../reset.css";
 import '../styles/Hero.css'
 
 import TypeWriterEffect from 'react-typewriter-effect';
-
+import CV from "../assets/CV.pdf"
 
 function Hero() {
     return (
@@ -24,7 +24,7 @@ function Hero() {
                             <h3>Frontend Developer</h3>
                             <p>From concept to deployment, delivering top-notch web solutions that exceed expectations</p>
                             <div className="hero-btn-container">
-                                <a href="#home" className="btn primary-btn">Download CV</a>
+                                <a href={CV} download='CV' className="btn primary-btn">Download CV</a>
                                 <a href="#contact" className="btn secondary-btn">Contact</a>
                             </div>
                         </div>
