@@ -3,7 +3,7 @@ import "../reset.css";
 import "../styles/Header.css";
 import brand_logo from "../assets/logo.jpg";
 
-import Collapse from 'bootstrap'
+// import Collapse from 'bootstrap'
 
 
 function Header() {
@@ -26,6 +26,7 @@ function Header() {
               <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
               <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
               <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+              <li className="nav-item"><a className="nav-link" href="#">projects</a></li>
             </ul>
             {/* Nav Button */}
             <div className="nav-btn">
