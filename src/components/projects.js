@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/projects.css'
+import '../styles/Projects.css'
 
 
 
 
-function projects() {
+function Projects() {
   return (
     <div>projects
 
@@ -13,4 +13,4 @@ function projects() {
   )
 }
 
-export default projects
+export default Projects
